@@ -5,103 +5,74 @@
         <link rel = "icon" type = image/jpg href = "images/skidsteer.jpg">
         <link rel = "stylesheet" href = "app.css"/>
     </head>
-    <!-- body section -->
-    <body>
-        <header class = "header">
-            <span>
-                <span class = "comp name">
-                    <button style = "width: 200px" id = "home" onclick = "window.location.href = 'index.html'">
-                        <img style = "width: 180px" src = "images/KJ Ackerley LOGO.jpg"
-                        alt = "KJ Ackerley Excavation"
-                        height = "50">
-                    </button>
-                </span>
-                <p class = "aux_pages">
-                <span class = "exc tab">
-                    <button id = "excavate" onclick = "window.location.href = 'excavation.html'">
-                    Excavation
-                    </button>
-                </span>
-                <span class = "snow tab">
-                    <button id = "snow" onclick = "window.location.href = 'snow_removal.html'">
-                        Snow Removal
-                    </button>
-                </span>
-                <span class = "gallery">
-                    <button id = "gallery" onclick = "window.location.href = 'gallery.html'">
-                        Gallery
-                    </button>
-                </span>
-                <span class = "testimonials">
-                    <button id = "testimonials" onclick = "window.location.href = 'testimonials.html'">
-                        Testimonials
-                    </button>
-                </span>
-                <span class = "contact">
-                    <button id = "contact" onclick = "window.location.href = 'contact.html'">
-                        Contact
-                    </button>
-                </span>
-            </span>           
-        </header>
-        
-        <main>
-            <div class = "about">
-                <p>
-                    <span>
-                        <h4>
-                            About:
-                        </h4>
-                    </span>
-                    <span>
-                        <p>
-                            Hello, my name is Kevin and I am a certified operator<br>
-                            for a plethora of machinery and have a multitude of <br>
-                            experience operating within the northeast massachusetts <br>
-                            area.
-                        </p>
-                    </span>
-                </p>
-            </div>
-            <hr>
 
-            <div class = "my_start">
-                <p>
-                    <span>
-                        <h4>
-                            My Start:
-                        </h4>
-                    </span>
-                    <span>
-                        <p>
-                            When I was a little boy I dreamed blah blah Lorem ipsum <br>
-                            dolor sit amet consectetur, adipisicing elit. Illum <br>
-                            doloremque ut animi dolorem repellat deserunt! Expedita, <br>
-                            amet magni qui in accusantium optio sed maiores? Itaque <br>
-                            earum voluptatum assumenda dolore temporibus.
-                        </p>
-                    </span>
-                </p>
+    <header>
+        <div class="top panel">
+            <span class="top">
+                <!-- <img 
+                src = "images/KJ Ackerley LOGO.jpg"
+                alt = "KJ Ackerley Excavation"
+                width = "351.33"
+                height = "134"
+                >
+                -->
+                <h1 name = "name">KJ Ackerley Excavation</h1>
+            </span>
+        </div>
+        <div class="dashboard">
+            <span class="button_list">
+                <button name="home">
+                    <h3>HOME</h3>
+                </button>
+                <button name="pricing">
+                    <h3>PRICING</h3>
+                </button>
+                <button name="gallery">
+                    <h3>GALLERY</h3>
+                </button>
+                <button name="contact">
+                    <h3>CONTACT</h3>
+                </button>
+            </span>
+        </div>
+    </header>
+    
+    
+    
+    
+    <body>  
+        <div class = "sections">
+            <div class = "left">
+                <div class = "about">
+                    <h1>About</h1>
+                    <hr>
+                    <p>
+                        Hello, my name is Kevin and I am a certified operator
+                        for a plethora of machinery and have a multitude of 
+                        experience operating within the northeast massachusetts
+                        area.
+                    </p>
+                </div>
+            </div> 
+    
+            <div class = "right">
+                <div class = "pictures">
+                    <img 
+                    src = "images/skidsteer_plow_straight.jpg" 
+                    alt = "skidsteer"
+                    width = "414"
+                    height = "552"
+                    >
+                </div>
+                
             </div>
-            <hr>
-
-            <div class = "test">
-                <a href = "https://www.youtube.com" 
-                target = "_blank" 
-                title = "goes to youtube">
-                    click me
-                </a>
-            </div>
-
-        </main>
-           
-        
-        <footer class = "footer">
-            <p>
-                author: the big man<br>
-                © 2024 copyright reserved<br>
-                for help: help@support.com<br>
-            </p>
-        </footer>
-    </body>
+        </div>
+    </body> 
+    <footer class = "footer">
+        <p>
+            author: the big man<br>
+            © 2024 copyright reserved<br>
+            for help: help@support.com<br>
+        </p>
+    </footer>
 </html>

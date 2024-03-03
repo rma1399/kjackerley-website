@@ -1,4 +1,4 @@
-.header {
+header {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -6,48 +6,26 @@
     background: navy;
 }
 
-.aux_pages{
+
+.left {
+  width:50%;
+  height: 100vh;
+  float: left;
+}
+
+.about {
   text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-.side_contacts{
-  text-align: right;
+.right {
+  width: 50%;
+  height: 100vh;
+  float: left;
 }
 
-#home{
+.pictures {
   text-align: center;
-  background-color:navy;
-  color:white;
-}
-
-#excavate{
-  background-color: navy;
-  color: white;
-  padding-right: 10px;
-}
-
-#snow{
-  background-color: navy;
-  color: white;
-}
-
-#gallery{
-  background-color: navy;
-  color: white;
-}
-
-#testimonials{
-  background-color: navy;
-  color: white;
-}
-
-#contact{
-  background-color: navy;
-  color: white;
-}
-
-.footer {
-  text-align: left;
-  color: white;
-  background: navy;
+  padding-top: 10%;
 }
